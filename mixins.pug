@@ -1,0 +1,19 @@
+mixin mainNewsItem(href, img, h5, p, time)
+    a(href=href)(class='main__news-item')
+        .main__news-item-img 
+            img(src=img)
+        .main__news-item-content 
+            h5=h5
+            p=p
+        .main__news-item-footer
+            i(class='fa-regular fa-clock')
+            span=time
+            p AC-TRADE News
+mixin mainNewsAllList(content, href)
+    .main__news-all-list 
+        p=content
+        a(href=href) Đọc thêm
+mixin doiTacItem(title, content, text)
+    h5=title
+    h4=content
+    p=text

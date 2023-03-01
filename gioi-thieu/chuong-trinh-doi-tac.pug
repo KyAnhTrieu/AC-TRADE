@@ -1,0 +1,82 @@
+extends ../layout/layout 
+block title 
+    -title = 'AC-TRADE | Đối Tác'
+include ../mixins
+block main 
+    .mid
+        .mid__title
+            h1 CÁC CHƯƠNG TRÌNH QUAN HỆ ĐỐI TÁC CỦA AC-TRADE
+        div(class='mid__content mid__doi-tac-content')
+            i Kiếm thu nhập ổn định bằng cách giới thiệu khách hàng cho công ty hàng đầu trên thị trường toàn cầu
+            i.mid__content-last HỢP TÁC TRÊN CƠ SỞ ĐÔI BÊN CÙNG CÓ LỢI  
+    .main__doi-tac-bgr-head 
+        img(src='..//img/background-partner-02.png')
+    .main__doi-tac-content 
+        h3 LỢI ÍCH CHÚNG TÔI MANG ĐẾN CHO BẠN 
+        .main__doi-tac-content-box 
+            .main__doi-tac-content-box-list
+                +doiTacItem('Chương trình nhà môi giới giới thiệu', 'Bạn sẽ nhận được tới 50% lợi nhuận của chúng tôi', 'Kiếm được tới 50% lợi nhuận của chúng tôi từ mọi nhà giao dịch đang hoạt động mà bạn giới thiệu cho chúng tôi. Nếu họ giao dịch, bạn sẽ kiếm được tiền.') 
+            .main__doi-tac-content-box-list
+                +doiTacItem('Chương trình cộng tác viên', 'Bạn sẽ nhận được tới 2000 USD đối với mỗi khách hàng', 'Chúng tôi đang dẫn đầu ngành với các thanh toán hấp dẫn và theo lịch trình. Chúng tôi cung cấp nhiều gói hoa hồng, nên bạn có thể chọn gói phù hợp nhất cho mình.') 
+    .main__doi-tac-content 
+        h3 BẠN CÀNG ĐĂNG KÝ ĐƯỢC NHIỀU KHÁCH HÀNG THÌ THU NHẬP CỦA BẠN CÀNG LỚN              
+    .main__doi-tac-content-vw 
+        .main__doi-tac-content-vw-list
+            .main__doi-tac-content-vw-list-item 
+                img(src="../img/icon-lien-ket.png")
+            .main__doi-tac-content-vw-list-item 
+                p Đăng tải liên kết đối đối tác riêng của bạn
+        .main__doi-tac-content-vw-list
+            .main__doi-tac-content-vw-list-item 
+                img(src="../img/icon-join.png")
+            .main__doi-tac-content-vw-list-item 
+                p Người dùng trở thành khách hàng
+        .main__doi-tac-content-vw-list
+            .main__doi-tac-content-vw-list-item 
+                img(src="../img/icon-trading.png")
+            .main__doi-tac-content-vw-list-item 
+                p Khách hàng giao dịch trên nền tảng AC-TRADE
+        .main__doi-tac-content-vw-list
+            .main__doi-tac-content-vw-list-item 
+                img(src="../img/icon-money.png")
+            .main__doi-tac-content-vw-list-item 
+                p Bạn sẽ nhận được tiền thưởng
+    div(class='main__index-content main__doi-tac-content-title')
+        h3 Tại sao bạn nên trở thành đối tác với AC-TRADE
+        .index-content__list
+            .index-content__list-item
+                i.fa-solid.fa-bolt
+                h5 Nạp/ rút nhanh chóng
+                p 
+                    | ACTRADE kết hợp với ngân hàng HSBC để thực hiện nhận và chuyển tiền cho khách hàng.
+            .index-content__list-item
+                i.fa-solid.fa-file-invoice-dollar
+                h5 Phí giao dịch cực thấp
+                p
+                    | Cơ cấu hợp tác đầu tư độc đáo của ACTRADE giúp nhà đầu tư tối ưu chi phí và thuế giao dịch. Phí chỉ từ 5.000VNĐ cho một lần mở và đóng một hợp đồng.
+                    br
+                    br
+                    b CHỈ DUY NHẤT 01 LOẠI CHI PHÍ
+            .index-content__list-item
+                i.fa-solid.fa-chart-simple
+                h5 Dữ liệu chuẩn xác, minh bạch
+                p Dữ liệu minh bạch được cấp phép bởi ủy ban chứng khoán các quốc gia.
+            .index-content__list-item
+                i.fa-solid.fa-headset
+                h5 Hỗ trợ trực tuyến 24/7
+                p
+                    | Nhóm hỗ trợ khách hàng đa ngôn ngữ của chúng tôi sẵn sàng trợ giúp bạn. Bạn có thể liên hệ với chúng tôi qua điện thoại, e-mail hoặc trò chuyện trực tuyến.
+            .index-content__list-item
+                i.fa-solid.fa-shield-halved
+                h5 An toàn & Bảo mật
+                p ACTRADE bảo mật dữ liệu cá nhân, tài sản của khách hàng tuyệt đối.
+            .index-content__list-item
+                i.fa-solid.fa-arrows-spin
+                h5 Hỗ trợ giao dịch với Margin
+                p
+                    | Chúng tôi cung cấp cho khách hàng đòn bẩy lên đến 200 lần
+            .index-content__list-item
+                i.fa-solid.fa-handshake-simple
+                h5 Chính sách hoa hồng hấp dẫn
+                p
+                    | Chúng tôi luôn cố gắng hướng đến khách hàng, mong muốn khách hàng đồng hành cùng ACTRADE với các chính sách hoa hồng cực hấp dẫn.

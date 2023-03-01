@@ -1,0 +1,27 @@
+extends ../layout/layout 
+block title 
+    -title = 'AC-TRADE | Email'
+block main 
+    .main__email
+        h3
+            i G&#x1EEC;I Y&Ecirc;U C&#x1EA6;U TR&#x1EF0;C TI&#x1EBE;P &Dstrok;&#x1EBE;N GMAIL C&#x1EE6;A CH&Uacute;NG T&Ocirc;I
+        i
+            | G&#x1EED;i y&ecirc;u c&#x1EA7;u &dstrok;&#x1EBF;n b&#x1EA5;t c&#x1EE9; th&#x1EAF;c m&#x1EAF;c n&agrave;o b&#x1EA1;n g&#x1EB7;p ph&#x1EA3;i - Ch&uacute;ng t&ocirc;i s&#x1EBD; li&ecirc;n h&#x1EC7; trong 24h
+        form.main__email-form(action='https://formsubmit.co/actrade006@gmail.com' method='post')
+            .main__email-form-list
+                i.fa-solid.fa-user
+                input.main__email-form-list-input(type='text' name='name' required='')
+                label H&#x1ECD; t&ecirc;n c&#x1EE7;a b&#x1EA1;n
+            .main__email-form-list
+                i.fa-solid.fa-square-phone
+                input.main__email-form-list-input(type='tel' name='tel' required='')
+                label S&#x1ED1; &dstrok;i&#x1EC7;n tho&#x1EA1;i c&#x1EE7;a b&#x1EA1;n
+            .main__email-form-list
+                i.fa-solid.fa-square-envelope
+                input.main__email-form-list-input(type='email' name='email' required='')
+                label Email c&#x1EE7;a b&#x1EA1;n
+            .main__email-form-list
+                label N&#x1ED9;i dung mu&#x1ED1;n g&#x1EED;i &dstrok;&#x1EBF;n AC-TRADE
+                textarea.main__email-form-list-tera(type='text' name='message')
+            .main__email-form-list
+                input.input__submit(type='submit' value='Gửi yêu cầu')
