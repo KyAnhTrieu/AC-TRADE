@@ -11,43 +11,43 @@
         {
             "label": "run layout.pug",
             "type": "shell",
-            "command": "pug ./layout/layout.pug --watch --pretty"
+            "command": "pug layout.pug --watch --pretty"
         },
         {
             "label": "run footer.pug",
             "type": "shell",
-            "command": "pug ./layout/footer.pug --watch --pretty"
+            "command": "pug footer.pug --watch --pretty"
         },
         {
             "label": "run header.pug",
             "type": "shell",
-            "command": "pug ./layout/header.pug --watch --pretty"
+            "command": "pug header.pug --watch --pretty"
         },
         {
             "label": "run chart.pug",
             "type": "shell",
-            "command": "pug ./chart/chart.pug --watch --pretty"
+            "command": "pug chart.pug --watch --pretty"
         },
         {
             "label": "run tin-tuc.pug",
             "type": "shell",
-            "command": "pug ./tin-tuc/tin-tuc.pug --watch --pretty"
+            "command": "pug tin-tuc.pug --watch --pretty"
         },
     
         {
             "label": "run kien-thuc-co-ban.pug",
             "type": "shell",
-            "command": "pug ./huong-dan/kien-thuc-co-ban.pug --watch --pretty"
+            "command": "pug kien-thuc-co-ban.pug --watch --pretty"
         },
         {
             "label": "run send-email.pug",
             "type": "shell",
-            "command": "pug ./ho-tro/send-email.pug --watch --pretty"
+            "command": "pug send-email.pug --watch --pretty"
         },
         {
             "label": "run chuong-trinh-doi-tac.pug",
             "type": "shell",
-            "command": "pug ./gioi-thieu/chuong-trinh-doi-tac.pug --watch --pretty"
+            "command": "pug chuong-trinh-doi-tac.pug --watch --pretty"
         },
     ]
 }
