@@ -5,23 +5,23 @@ block main
     .main__email
         h3
             i GỬI YÊU CẦU TRỰC TIẾP ĐẾN GMAIL CỦA CHÚNG TÔI
-        i
+        i.main__email-note
             | Gửi yêu cầu với bất cứ thắc mắc nào mà bạn gặp phải - Chúng tôi sẽ liện hệ trong 24h.
         form.main__email-form(action='https://formsubmit.co/actrade006@gmail.com' method='post')
             .main__email-form-list
                 i.fa-solid.fa-user
                 input.main__email-form-list-input(type='text' name='name' required='')
-                label H&#x1ECD; t&ecirc;n c&#x1EE7;a b&#x1EA1;n
+                label Họ tên của bạn
             .main__email-form-list
                 i.fa-solid.fa-square-phone
                 input.main__email-form-list-input(type='tel' name='tel' required='')
-                label S&#x1ED1; &dstrok;i&#x1EC7;n tho&#x1EA1;i c&#x1EE7;a b&#x1EA1;n
+                label Số điện thoại của bạn
             .main__email-form-list
                 i.fa-solid.fa-square-envelope
                 input.main__email-form-list-input(type='email' name='email' required='')
-                label Email c&#x1EE7;a b&#x1EA1;n
-            .main__email-form-list
-                label N&#x1ED9;i dung mu&#x1ED1;n g&#x1EED;i &dstrok;&#x1EBF;n AC-TRADE
+                label Email của bạn
+            .main__email-form-list.main__email-last
+                label Nội dung muốn gửi đến AC-TRADE
                 textarea.main__email-form-list-tera(type='text' name='message')
             .main__email-form-list
                 input.input__submit(type='submit' value='Gửi yêu cầu')

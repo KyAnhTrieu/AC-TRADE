@@ -99,7 +99,7 @@ body {
     gap: 5px;
 }
 .header-nav__list, .header__login {
-    padding: 10px 15px;
+    padding: 10px;
     position: relative;
     font-size: 1.5rem;
     font-weight: 600;
@@ -111,6 +111,7 @@ body {
 .header-nav__link, .header__login a {
     text-decoration: none;
     color: var(--text-color);
+    font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: 1px;
 }
@@ -489,20 +490,32 @@ marquee {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    font-size: 1.5rem;
     z-index: 3;
 }
 .main__partner h3 {
     font-size: 3rem;
     color: var(--text-color-2);
+    font-weight: 900;
 }
-.main__partner-logo {
+.main__partner-box {
     display: flex;
-    gap: 20px;
+    gap: 30px;
+}
+.main__partner-list {
+    height: 150px;
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    text-align: justify;
 }
 /* footer */
 footer {
     width: 100%;
-    height: 150px;
+    height: 100px;
     background-color: var(--hover-color);
     padding: 20px 0;
     box-sizing: border-box;
@@ -754,13 +767,13 @@ footer {
 .main__email {
     width: 45%;
     min-width: 550px;
-    height: 650px;
+    height: auto;
     margin: -500px auto;
     margin-bottom: 1px;
     background-color: var(--background-color);
     box-sizing: border-box;
     border-radius: 30px;
-    box-shadow: 0 15px 30px #00446b5d;
+    box-shadow: var(--box-shadow);
     position: relative;
 }
 .main__email h3 {
@@ -770,7 +783,7 @@ footer {
     font-size: 2rem;
     color: var(--item-trans-2);
 }
-.main__email i:nth-child(2) {
+.main__email-note {
     position: absolute;
     top: 45px;
     left: 50px;
@@ -798,7 +811,7 @@ footer {
     bottom: 5px;
     left: -30px;
     font-size: 2.3rem;
-    color: #333;
+    color: var(--hover-color);
 }
 .main__email-form-list-input {
     font-size: 1.6rem;
@@ -836,10 +849,10 @@ footer {
     width: 100%;
     height: 200px;
 }
-.main__email-form-list:nth-last-child(2) {
+.main__email-last {
     margin-top: 20px;
 }
-.main__email-form-list:nth-last-child(2) label {
+.main__email-last label {
     color: #999;
     font-size: 1.6rem;
     font-weight: normal;
@@ -951,3 +964,53 @@ footer {
     transform: translateY(10px);
 }
 /* doi-tac */
+/* login */
+.main__login {
+    width: 400px;
+    height: 650px;
+    border-radius: 15px;
+    margin-top: -540px;
+    background-color: #fff;
+
+}
+.main__login h3 {
+    color: var(--hover-color);
+    font-size: 2.4rem;
+    left: 200px;
+    top: 65px;
+}
+.main__login-form {
+    margin-top: 80px;
+}
+.main__login-btn {
+    width: 100%;
+    height: 45px;
+    background-color: var(--hover-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    cursor: pointer;
+}
+.main__login-btn a {
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    color: var(--hover-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0;
+}
+.main__login-img {
+    height: 300px;
+    object-fit: cover;
+    margin: 20px auto 0;
+}
+.main__sign-up h3 {
+    left: 220px;
+}
+/* login */

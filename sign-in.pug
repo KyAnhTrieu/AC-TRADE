@@ -1,0 +1,25 @@
+extends layout
+block title 
+    -title = 'AC-TRADE | Đăng Ký'
+block main 
+    .main__email.main__login.main__sign-up
+        h3 ĐĂNG KÝ
+        form.main__email-form.main__login-form
+            .main__email-form-list
+                i.fa-solid.fa-user
+                input.main__email-form-list-input(type='text' name='tel' required='')
+                label Email / Số điện thoại
+            .main__email-form-list
+                i.fa-solid.fa-key
+                input.main__email-form-list-input(type='password' name='password' required='')
+                label Mật khẩu
+            .main__email-form-list
+                i.fa-solid.fa-pen-to-square
+                input.main__email-form-list-input(type='text' name='name' required='')
+                label Họ tên của bạn
+            .main__email-form-list
+                i.fa-solid.fa-qrcode
+                input.main__email-form-list-input(type='text' autocomplete="off" tabindex="0" required='')
+                label Mã mời
+            button.main__login-btn Đăng Ký Ngay
+                a(href="login.html") Đăng Nhập  

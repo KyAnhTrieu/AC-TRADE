@@ -1,0 +1,24 @@
+extends layout
+block title 
+    -title = 'AC-TRADE | Login'
+block main 
+    .main__email.main__login
+        h3 ĐĂNG NHẬP
+        form.main__email-form.main__login-form
+            .main__email-form-list
+                i.fa-solid.fa-user
+                input.main__email-form-list-input(type='text' name='name' required='')
+                label Email / Số điện thoại
+            .main__email-form-list
+                i.fa-solid.fa-key
+                input.main__email-form-list-input(type='password' name='password' required='')
+                label Mật khẩu
+            //- .main__email-form-list
+            //-     i.fa-solid.fa-qrcode
+            //-     input.main__email-form-list-input(type='text' autocomplete="off" tabindex="0" required='')
+            //-     label Mã xác nhận
+            button.main__login-btn Đăng Nhập
+                a(href="sign-in.html") Đăng Ký Tài Khoản  
+            .main__login-img 
+                img(src="./img/login-img.png", alt="")
+                

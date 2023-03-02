@@ -49,5 +49,20 @@
             "type": "shell",
             "command": "pug chuong-trinh-doi-tac.pug --watch --pretty"
         },
+        {
+            "label": "run trading.pug",
+            "type": "shell",
+            "command": "pug trading.pug --watch --pretty"
+        },
+        {
+            "label": "run login.pug",
+            "type": "shell",
+            "command": "pug login.pug --watch --pretty"
+        },
+        {
+            "label": "run sign-in.pug",
+            "type": "shell",
+            "command": "pug sign-in.pug --watch --pretty"
+        },
     ]
 }
