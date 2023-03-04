@@ -110,7 +110,7 @@ body {
     text-decoration: none;
     color: var(--text-color);
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: .05rem;
 }
 .nav__list-child {
@@ -119,7 +119,7 @@ body {
     padding-left: 10px;
     font-size: 1.2rem;
     margin-left: -5px;
-    font-weight: 400;
+    font-weight: 300;
     top: 100%;
     left: 0;
     width: 200px;
@@ -1013,5 +1013,15 @@ footer {
 }
 .main__sign-up h3 {
     left: 220px;
+}
+.main__email-form-list .eye-close, .main__email-form-list 
+.eye-open {
+    position: absolute;
+    left: 380px;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.main__email-form-list .hidden {
+    display: none;
 }
 /* login */

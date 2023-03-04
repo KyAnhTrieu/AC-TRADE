@@ -11,8 +11,10 @@ block main
                 label Email / Số điện thoại
             .main__email-form-list
                 i.fa-solid.fa-key
-                input.main__email-form-list-input(type='password' name='password' required='')
+                input.main__email-form-list-input.password(type='password' name='password' required='')
                 label Mật khẩu
+                i.fa-solid.fa-eye-slash.eye-close
+                i.fa-solid.fa-eye.eye-open.hidden
             .main__email-form-list
                 i.fa-solid.fa-pen-to-square
                 input.main__email-form-list-input(type='text' name='name' required='')
@@ -23,3 +25,4 @@ block main
                 label Mã mời
             button.main__login-btn Đăng Ký Ngay
                 a(href="login.html") Đăng Nhập  
+    script(src='main.js')
