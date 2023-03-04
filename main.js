@@ -1,3 +1,4 @@
+//hide-show password
 const input = document.querySelector(".password");
 const eyeOpen = document.querySelector(".eye-open");
 const eyeClose = document.querySelector(".eye-close");
@@ -11,3 +12,4 @@ eyeClose.addEventListener("click", function () {
     eyeClose.classList.add("hidden");
     input.setAttribute("type", "text");
 });
+//hide-show password
