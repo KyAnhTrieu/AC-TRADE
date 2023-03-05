@@ -182,7 +182,7 @@ body {
 .mid {
     width: 50%;
     min-width: 700px;
-    margin: -490px auto 0;
+    margin: -550px auto 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -345,6 +345,7 @@ marquee {
 .main__widget {
     width: 80%;
     height: auto;
+    margin-top: -20px;
     z-index: 3;
 }
 .main__index-content {
