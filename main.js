@@ -11,6 +11,22 @@ document.addEventListener('scroll', (event)=>{
     });
 });
 // showtotop
+// slides
+var mySlide = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlide");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  mySlide++;
+  if (mySlide > x.length) {mySlide = 1}    
+  x[mySlide-1].style.display = "block";  
+  setTimeout(carousel, 2000);
+}
+// slides
 //hide-show password
 const input = document.querySelector(".password");
 const eyeOpen = document.querySelector(".eye-open");

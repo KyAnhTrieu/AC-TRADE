@@ -37,12 +37,59 @@
     <div class="mid__title">
       <h1>CHIẾN THẮNG THỊ TRƯỜNG</h1>
     </div>
-    <div class="mid__content"><i>AC TRADE là nền tảng đột phá mới, đơn giản hóa giao dịch phái sinh chỉ số, nhà đầu tư có thể trải nghiệm tập sự phái sinh như chỉ số VN30, DJ, NASDAQ với số tiền hợp đồng nhỏ</i><i class="mid__content-last">CHỈ TỪ 500.000VNĐ/ HỢP ĐỒNG</i></div><a href="sign-in.html">
+    <div class="mid__content"><i>AC TRADE là nền tảng đột phá mới, đơn giản hóa giao dịch phái sinh chỉ số, nhà đầu tư có thể trải nghiệm tập sự phái sinh như chỉ số VN30, DJ, S&P 500, NASDAQ với số tiền hợp đồng nhỏ</i><i class="mid__content-last">CHỈ TỪ 500.000VNĐ/ HỢP ĐỒNG</i></div><a href="sign-in.html">
       <button class="button"><span class="button_lg"><span class="button_sl"></span><span class="button_text">Đăng Ký Ngay</span></span></button></a>
   </div>
   <marquee behavior="" direction="10" scrollamount="11"><i>
        Đăng ký tài khoản nhận ngay 50.000vnđ tài khoản thực và 100.000.000vnđ cho tài khoản demo </i></marquee>
   <div class="main__index-mockup"> <img src="./img/display.png" alt="display"></div>
+  <div class="main__widget">
+    <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://vn.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">AC-TRADE Thị trường hôm nay</span></a> từ TradingView</div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+    {
+    "proName": "FOREXCOM:SPXUSD",
+    "title": "S&P 500"
+    },
+    {
+    "proName": "FOREXCOM:NSXUSD",
+    "title": "US 100"
+    },
+        {
+    "proName": "FX_IDC:EURUSD",
+    "title": "EUR/USD"
+    },
+        {
+    "proName": "BITSTAMP:BTCUSD",
+    "title": "Bitcoin"
+    },
+        {
+    "proName": "BITSTAMP:ETHUSD",
+    "title": "Ethereum"
+    },
+        {
+    "description": "NASDAQ",
+    "proName": "CME_MINI:NQ1!"
+    },
+        {
+    "description": "DOW",
+    "proName": "CBOT_MINI:YM1!"
+    }
+    ],
+    "width": "80%",
+    "height": "100%",
+    "showSymbolLogo": true,
+    "colorTheme": "light",
+    "isTransparent": true,
+    "displayMode": "adaptive",
+    "locale": "vi_VN"
+    }
+    </script>
+  </div>
+  </div>
   <div class="main__index-content" id="itemShowToTop">
     <h3>Chúng tôi hiểu điều gì quan trọng với bạn</h3>
     <div class="index-content__list">
@@ -145,4 +192,5 @@
       </div>
     </div>
   </footer>
+  <script src="main.js"></script>
 </body>
