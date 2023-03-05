@@ -8,7 +8,7 @@ block main
         .mid__content
             i AC TRADE là nền tảng đột phá mới, đơn giản hóa giao dịch phái sinh chỉ số, nhà đầu tư có thể trải nghiệm tập sự phái sinh như chỉ số VN30, DJ, NASDAQ với số tiền hợp đồng nhỏ
             i.mid__content-last CHỈ TỪ 500.000VNĐ/ HỢP ĐỒNG
-        a(href='login.html')
+        a(href='sign-in.html')
             button.button
                 span.button_lg
                     span.button_sl
@@ -18,15 +18,15 @@ block main
             | Đăng ký tài khoản nhận ngay 50.000vnđ tài khoản thực và 100.000.000vnđ cho tài khoản demo 
     .main__index-mockup 
         img(src='./img/display.png' alt='display')
-    .main__index-content
+    .main__index-content#itemShowToTop
         h3 Chúng tôi hiểu điều gì quan trọng với bạn
         .index-content__list
-            .index-content__list-item
+            .index-content__list-item.showToTop
                 i.fa-solid.fa-bolt
                 h5 Nạp/ rút nhanh chóng
                 p 
                     | ACTRADE kết hợp với ngân hàng HSBC để thực hiện nhận và chuyển tiền cho khách hàng.
-            .index-content__list-item
+            .index-content__list-item.showToTop
                 i.fa-solid.fa-file-invoice-dollar
                 h5 Phí giao dịch cực thấp
                 p
@@ -34,28 +34,28 @@ block main
                     br
                     br
                     b CHỈ DUY NHẤT 01 LOẠI CHI PHÍ
-            .index-content__list-item
+            .index-content__list-item.showToTop
                 i.fa-solid.fa-chart-simple
                 h5 Dữ liệu chuẩn xác, minh bạch
                 p Dữ liệu minh bạch được cấp phép bởi ủy ban chứng khoán các quốc gia.
-            .index-content__list-item
+            .index-content__list-item.showToTop
                 i.fa-solid.fa-headset
                 h5 Hỗ trợ trực tuyến 24/7
                 p
                     | Nhóm hỗ trợ khách hàng đa ngôn ngữ của chúng tôi sẵn sàng trợ giúp bạn. Bạn có thể liên hệ với chúng tôi qua điện thoại, e-mail hoặc trò chuyện trực tuyến.
-            .index-content__list-item
+            .index-content__list-item.showToTop
                 i.fa-solid.fa-shield-halved
                 h5 An toàn & Bảo mật
                 p ACTRADE bảo mật dữ liệu cá nhân, tài sản của khách hàng tuyệt đối.
-            .index-content__list-item
+            .index-content__list-item.showToTop
                 i.fa-solid.fa-handshake-simple
                 h5 Chính sách hoa hồng hấp dẫn
                 p
                     | Chúng tôi luôn cố gắng hướng đến khách hàng, mong muốn khách hàng đồng hành cùng ACTRADE với các chính sách hoa hồng cực hấp dẫn.
-    .main__index-content-two
+    .main__index-content-two#itemShowToTop
         .content-two__list
-            img(src='./img/display 2.png' alt='')
-        .index-content-two__list
+            img.showToTop(src='./img/display 2.png' alt='')
+        .index-content-two__list.showToTop
             h6 GIAO DỊCH THÔNG MINH
             h3 MÀN HÌNH GIAO DỊCH THÂN THIỆN
             p
@@ -66,8 +66,8 @@ block main
             li - Đặt lệnh nhanh chóng
             li - Đồ thị trực quan
             li - Luôn tối ưu trải nghiệm của khách hàng
-    .main__index-content-two
-        .index-content-two__list
+    .main__index-content-two#itemShowToTop
+        .index-content-two__list.showToTop
             h6 BOT TRADING
             h3 GIAO DỊCH TỰ ĐỘNG GIẢM THIỂU CẢM XÚC
             p
@@ -79,11 +79,11 @@ block main
             li - Chỉ báo phân tích kỹ thuật đa dạng
             li - Liên tục cải tiến
         .content-two__list
-            img(src='./img/display 2.png' alt='')
-    .main__index-content-two
+            img.showToTop(src='./img/display 2.png' alt='')
+    .main__index-content-two#itemShowToTop
         .content-two__list
-            img(src='./img/display 2.png' alt='')
-        .index-content-two__list
+            img.showToTop(src='./img/display 2.png' alt='')
+        .index-content-two__list.showToTop
             h6 GIẢI PHÁP TÀI CHÍNH
             h3 TỐI ƯU LỢI ÍCH VỚI ĐÒN BẨY LÊN ĐẾN 200 LẦN
             p
@@ -94,6 +94,6 @@ block main
             li - Đặt lệnh nhanh chóng
             li - Nạp - Rút tiền tự động
             li - Quản lý tài sản tối ưu, minh bạch
-
+    script(src='main.js')
 
     

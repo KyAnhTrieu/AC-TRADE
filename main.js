@@ -1,3 +1,16 @@
+// showtotop
+let items = document.querySelectorAll('#itemShowToTop');
+document.addEventListener('scroll', (event)=>{
+    items.forEach(item => {
+        if(item.offsetTop - window.scrollY < 750){
+            item.classList.add('active')
+        };
+        if(item.offsetTop - window.scrollY > 750){
+            item.classList.remove('active')
+        };
+    });
+});
+// showtotop
 //hide-show password
 const input = document.querySelector(".password");
 const eyeOpen = document.querySelector(".eye-open");
@@ -13,3 +26,7 @@ eyeClose.addEventListener("click", function () {
     input.setAttribute("type", "text");
 });
 //hide-show password
+$('.alert-50k').click(function() {
+    alert('Đăng ký tài khoản trên nền tảng AC-Trade nhận ngay 50.000vnđ.');
+});
+

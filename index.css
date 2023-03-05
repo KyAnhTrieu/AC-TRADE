@@ -436,7 +436,7 @@ marquee {
 }
 .index-content-two__list h3 {
     font-size: 3rem;
-    line-height: 3.1rem;
+    line-height: 3.8rem;
     color: var(--text-color-2);
 }
 .index-content-two__list p {
@@ -918,6 +918,7 @@ footer {
 
 }
 .main__doi-tac-content-box-list {
+    width: 100%;
     padding: 80px 20px;
     display: flex;
     flex-direction: column;
@@ -1033,3 +1034,20 @@ footer {
     display: none;
 }
 /* login */
+/* animation showtotop */
+.showToTop{
+    opacity: 0;
+}
+.active .showToTop {
+    animation: showtop 1s ease-in-out forwards;
+}
+@keyframes showtop{
+    from{
+        opacity: 0;
+        transform: translate(0,100px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}

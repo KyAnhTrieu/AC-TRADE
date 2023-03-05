@@ -11,7 +11,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
-  <body></body><a class="cskh" href="#" target="_blank"> <img src="./img/icon-cskh.png" alt=""></a>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body><a class="cskh" href="#" target="_blank"> <img src="./img/icon-cskh.png" alt=""></a>
   <div class="main__header"> 
     <div class="header"><a class="header__logo" href="index.html"><img src="./img/logo-web-02.png" alt="header-logo"></a>
       <div class="header__nav">
@@ -38,15 +40,15 @@
     <div class="mid__content mid__doi-tac-content"><i>Kiếm thu nhập ổn định bằng cách giới thiệu khách hàng cho công ty hàng đầu trên thị trường toàn cầu</i><i class="mid__content-last">HỢP TÁC TRÊN CƠ SỞ ĐÔI BÊN CÙNG CÓ LỢI  </i></div>
   </div>
   <div class="main__doi-tac-bgr-head"> <img src="./img/background-partner-02.png"></div>
-  <div class="main__doi-tac-content"> 
+  <div class="main__doi-tac-content" id="itemShowToTop"> 
     <h3>LỢI ÍCH CHÚNG TÔI MANG ĐẾN CHO BẠN </h3>
     <div class="main__doi-tac-content-box"> 
-      <div class="main__doi-tac-content-box-list">
+      <div class="main__doi-tac-content-box-list showToTop">
         <h5>Chương trình nhà môi giới giới thiệu</h5>
         <h4>Bạn sẽ nhận được tới 50% lợi nhuận của chúng tôi</h4>
         <p>Kiếm được tới 50% lợi nhuận của chúng tôi từ mọi nhà giao dịch đang hoạt động mà bạn giới thiệu cho chúng tôi. Nếu họ giao dịch, bạn sẽ kiếm được tiền.</p>
       </div>
-      <div class="main__doi-tac-content-box-list">
+      <div class="main__doi-tac-content-box-list showToTop">
         <h5>Chương trình cộng tác viên</h5>
         <h4>Bạn sẽ nhận được tới 2000 USD đối với mỗi khách hàng</h4>
         <p>Chúng tôi đang dẫn đầu ngành với các thanh toán hấp dẫn và theo lịch trình. Chúng tôi cung cấp nhiều gói hoa hồng, nên bạn có thể chọn gói phù hợp nhất cho mình.</p>
@@ -82,40 +84,41 @@
       </div>
     </div>
   </div>
-  <div class="main__index-content main__doi-tac-content-title">
+  <div class="main__index-content main__doi-tac-content-title" id="itemShowToTop"> 
     <h3>Tại sao bạn nên trở thành đối tác với AC-TRADE</h3>
     <div class="index-content__list">
-      <div class="index-content__list-item"><i class="fa-solid fa-bolt"></i>
+      <div class="index-content__list-item showToTop"><i class="fa-solid fa-bolt"></i>
         <h5>Nạp/ rút nhanh chóng</h5>
         <p>
            ACTRADE kết hợp với ngân hàng HSBC để thực hiện nhận và chuyển tiền cho khách hàng.</p>
       </div>
-      <div class="index-content__list-item"><i class="fa-solid fa-file-invoice-dollar"></i>
+      <div class="index-content__list-item showToTop"><i class="fa-solid fa-file-invoice-dollar"></i>
         <h5>Phí giao dịch cực thấp</h5>
         <p>Cơ cấu hợp tác đầu tư độc đáo của ACTRADE giúp nhà đầu tư tối ưu chi phí và thuế giao dịch. Phí chỉ từ 5.000VNĐ cho một lần mở và đóng một hợp đồng.<br><br><b>CHỈ DUY NHẤT 01 LOẠI CHI PHÍ</b></p>
       </div>
-      <div class="index-content__list-item"><i class="fa-solid fa-chart-simple"></i>
+      <div class="index-content__list-item showToTop"><i class="fa-solid fa-chart-simple"></i>
         <h5>Dữ liệu chuẩn xác, minh bạch</h5>
         <p>Dữ liệu minh bạch được cấp phép bởi ủy ban chứng khoán các quốc gia.</p>
       </div>
-      <div class="index-content__list-item"><i class="fa-solid fa-headset"></i>
+      <div class="index-content__list-item showToTop"><i class="fa-solid fa-headset"></i>
         <h5>Hỗ trợ trực tuyến 24/7</h5>
         <p>Nhóm hỗ trợ khách hàng đa ngôn ngữ của chúng tôi sẵn sàng trợ giúp bạn. Bạn có thể liên hệ với chúng tôi qua điện thoại, e-mail hoặc trò chuyện trực tuyến.</p>
       </div>
-      <div class="index-content__list-item"><i class="fa-solid fa-shield-halved"></i>
+      <div class="index-content__list-item showToTop"><i class="fa-solid fa-shield-halved"></i>
         <h5>An toàn & Bảo mật</h5>
         <p>ACTRADE bảo mật dữ liệu cá nhân, tài sản của khách hàng tuyệt đối.</p>
       </div>
-      <div class="index-content__list-item"><i class="fa-solid fa-arrows-spin"></i>
+      <div class="index-content__list-item showToTop"><i class="fa-solid fa-arrows-spin"></i>
         <h5>Hỗ trợ giao dịch với Margin</h5>
         <p>Chúng tôi cung cấp cho khách hàng đòn bẩy lên đến 200 lần</p>
       </div>
-      <div class="index-content__list-item"><i class="fa-solid fa-handshake-simple"></i>
+      <div class="index-content__list-item showToTop"><i class="fa-solid fa-handshake-simple"></i>
         <h5>Chính sách hoa hồng hấp dẫn</h5>
         <p>Chúng tôi luôn cố gắng hướng đến khách hàng, mong muốn khách hàng đồng hành cùng ACTRADE với các chính sách hoa hồng cực hấp dẫn.</p>
       </div>
     </div>
   </div>
+  <script src="main.js"></script>
   <div class="main__download">
     <h3>TẢI ỨNG DỤNG ACTRADE TRÊN ĐIỆN THOẠI</h3>
     <p>ACTRADE hỗ trợ nhà đầu tư giao dịch thuận tiện trên điện thoại dễ dàng hơn với ứng dụng dành riêng cho mobile</p>
@@ -145,4 +148,4 @@
       </div>
     </div>
   </footer>
-</head>
+</body>
