@@ -24,16 +24,10 @@
             "command": "pug header.pug --watch --pretty"
         },
         {
-            "label": "run chart.pug",
-            "type": "shell",
-            "command": "pug chart.pug --watch --pretty"
-        },
-        {
             "label": "run tin-tuc.pug",
             "type": "shell",
             "command": "pug tin-tuc.pug --watch --pretty"
         },
-    
         {
             "label": "run kien-thuc-co-ban.pug",
             "type": "shell",
@@ -62,7 +56,7 @@
         {
             "label": "run sign-in.pug",
             "type": "shell",
-            "command": "pug sign-in.pug --watch --pretty"
-        },
+            "command": "pug sign-in.pug --watch --pretty",
+        }
     ]
 }

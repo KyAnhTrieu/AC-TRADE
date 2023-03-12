@@ -1,32 +1,16 @@
-// showtotop
+// showToTop
 let items = document.querySelectorAll('#itemShowToTop');
 document.addEventListener('scroll', (event)=>{
     items.forEach(item => {
         if(item.offsetTop - window.scrollY < 750){
             item.classList.add('active')
         };
-        if(item.offsetTop - window.scrollY > 750){
+        if(item.offsetTop - window.scrollY > 850){
             item.classList.remove('active')
         };
     });
 });
-// showtotop
-// slides
-var mySlide = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlide");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  mySlide++;
-  if (mySlide > x.length) {mySlide = 1}    
-  x[mySlide-1].style.display = "block";  
-  setTimeout(carousel, 2000);
-}
-// slides
+// showToTop
 //hide-show password
 const input = document.querySelector(".password");
 const eyeOpen = document.querySelector(".eye-open");
@@ -42,7 +26,19 @@ eyeClose.addEventListener("click", function () {
     input.setAttribute("type", "text");
 });
 //hide-show password
-$('.alert-50k').click(function() {
-    alert('Đăng ký tài khoản trên nền tảng AC-Trade nhận ngay 50.000vnđ.');
-});
+// slides
+var mySlide = 0;
+carousel();
 
+function carousel() {
+    var i;
+    var mySlide = document.getElementsByClassName("mySlide");
+    for (i = 0; i < mySlide.length; i++) {
+      mySlide[i].classList.remove("active"); // Xóa class active khỏi tất cả các phần tử slide
+    }
+    mySlide++;
+    if (mySlide > mySlide.length) {mySlide = 1}    
+    mySlide[mySlide-1].classList.add("active"); // Thêm class active vào phần tử slide hiện tại
+    setTimeout(carousel, 4000);
+};
+// slides
